@@ -77,13 +77,13 @@ which converts keyboard events into their corresponding Unicode characters based
 Compile using GCC:
 
 ```bash
-gcc main.c -o kl.exe
+gcc kl.c -o kl.exe
 ```
 
 or using MSVC:
 
 ```bash
-cl main.c user32.lib
+cl kl.c user32.lib
 ```
 
 ## References
